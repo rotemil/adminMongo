@@ -6,7 +6,6 @@ sudo yum install git -y
 export HOME=/root
 
 npm --version
-
 if [[ $? != 0 ]]; then << EOF
 
           git clone https://github.com/mrvautin/adminMongo.git && cd adminMongo
